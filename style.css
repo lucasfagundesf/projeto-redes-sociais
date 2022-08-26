@@ -34,3 +34,16 @@ iframe#tela{
     width: 171.9px;
     height: 303.3px;
 }
+#menu {
+    text-align: right;
+}
+#menu img{
+    width: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+}
+#menu img:hover{
+    transform: translate(-2px,-2px);
+    transition: transform 0.3s; 
+}
